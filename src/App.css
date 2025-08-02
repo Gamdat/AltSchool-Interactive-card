@@ -28,24 +28,17 @@ body{
   background-color: #ffffff;
 }
 
-@media (min-width: 768px) {
-  .container{
-    flex-direction: row;
-    justify-content: center;
-  }
-}
+@media (max-width: 768px) {
 
 .card-preview{
   position: relative;
   width: 350px;
-  height: 220px;
+  height: 230px;
+  left: -130px;
 }
 
 .form-container{
-  background-color: #ffffff;
-  color: #000000;
-  padding: 2rem;
-  border-radius: 10px;
-  max-width: 600px;
-  width: 100%;
+  padding: 1rem;
+   max-width: 450px;
+}
 }

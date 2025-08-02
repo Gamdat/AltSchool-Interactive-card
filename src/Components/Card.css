@@ -114,3 +114,77 @@
     left: -5rem;
     font-size: 0.6rem;
 }
+
+@media (max-width: 768px) {
+    
+.card-front{
+    height: 11rem;
+   width: 20rem;
+  margin-top: 6rem;
+  margin-left: -3rem;
+}
+
+
+.card-number{
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    top: 5rem;
+    left: -29px;
+}
+
+.card-name{
+    top: 9rem;
+    left: -22px;
+}
+
+.card-expiry{
+    top: 9rem;
+    left: 13rem;
+}
+
+.white{
+    top: 25px;
+    left: -20px;
+}
+
+.white2{
+    top: 30px;
+    left: 20px;
+}
+
+.purple{
+     top: 32px;
+    left: 22px;
+}
+
+
+.card-back{
+    height: 11rem;
+   width: 20rem;
+  margin-top: 1rem;
+  margin-left: -2rem;
+}
+
+
+.black{
+    top: 13rem;
+    width: 91%;
+    height: 2.3rem;
+}
+
+.grey{
+    top: 17rem;
+    width: 70%;
+    }
+
+.card-cvc{
+    right: 125px;
+    top: 18rem;
+   }
+
+.tiny{
+    top: 20rem;
+    left: 3rem;
+    font-size: 0.5rem;
+}
+}
