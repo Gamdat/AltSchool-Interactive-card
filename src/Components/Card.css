@@ -1,0 +1,116 @@
+.card{
+    width: 300px;
+    height: 160px;
+    padding: 1.5rem;
+    color: #ffffff;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-front{
+    background: linear-gradient(140deg, #882a70, #c83bd4, #3853ad,  #420b47, #b16809, #2d003e, #1f0b1a);
+  height: 13rem;
+  border-radius: 8px;
+  width: 24rem;
+  margin-top: 8rem;
+  margin-left: -15rem;
+  color: #ffffff;
+}
+
+
+.card-number{
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 7rem;
+    left: -198px;
+}
+
+.card-name{
+    font-size: 0.9rem;
+    position: absolute;
+    top: 10rem;
+    left: -220px;
+}
+
+.card-expiry{
+    font-size: 0.9rem;
+    position: absolute;
+    top: 10rem;
+    left: 80px;
+}
+
+.white{
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    position: absolute;
+    top: 20px;
+    left: -210px;
+}
+
+.white2{
+     background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 60px;
+    position: absolute;
+    top: 25px;
+    left: -170px;
+}
+
+.purple{
+     background-color: #c83bd4;
+    width: 16px;
+    height: 16px;
+    border-radius: 60px;
+    position: absolute;
+    top: 27px;
+    left: -168px;
+}
+
+
+.card-back{
+    background-color: rgb(233, 233, 226);
+     height: 13rem;
+  border-radius: 8px;
+  width: 24rem;
+  margin-top: 2rem;
+  margin-left: -12rem;
+  color: #000000;
+}
+
+
+.black{
+    background-color: #000;
+    position: absolute;
+    top: 16rem;
+    width: 110%;
+    height: 2.5rem;
+}
+
+.grey{
+    background-color: rgb(148, 137, 137);
+     position: absolute;
+    top: 20rem;
+    width: 90%;
+    height: 2rem;
+    margin-left: 35px;
+    border-radius: 3px;
+}
+
+.card-cvc{
+    position: absolute;
+    right: 205px;
+    top: 21rem;
+    color: #fff;
+    transform: translateY(-50%);
+}
+
+.tiny{
+    position: absolute;
+    top: 24rem;
+    left: -5rem;
+    font-size: 0.6rem;
+}
