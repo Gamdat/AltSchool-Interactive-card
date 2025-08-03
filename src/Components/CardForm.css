@@ -84,3 +84,31 @@ button{
     font-size: 0.9rem;
     margin-left: -20px;}
 }
+
+@media (max-width: 768px){
+    
+button{
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    margin-left: -10px;
+    width: 12rem;
+}
+
+
+input{
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin-left: -20px;
+    width: 220px;
+}
+
+
+.expiry{
+    gap: 1.5rem;
+}
+
+.expiry input{
+    width: 68px;
+}
+
+}

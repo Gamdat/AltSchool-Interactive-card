@@ -19,6 +19,13 @@ body{
   margin-top: 90px;
 }
 
+
+.form-container{
+  padding:  1rem 2rem;
+   max-width: 600px;
+   margin-top: -200px;
+}
+
 .side-a{
     background: linear-gradient(140deg, #1d0517, #3a1906, #1e0529,  #420b47, #2a032e, #2d003e, #1f0618);
   
@@ -38,7 +45,30 @@ body{
 }
 
 .form-container{
-  padding: 1rem;
+  padding: 15rem 1rem;
    max-width: 450px;
 }
+}
+
+
+@media (max-width: 500px) {
+  
+.card-preview{
+  position: relative;
+  width: 170px;
+  height: 200px;
+  left: -130px;
+}
+
+
+.side-a{
+    width: 320px;
+  }
+
+  
+.form-container{
+  padding: 16rem 0;
+   max-width: 450px;
+}
+
 }

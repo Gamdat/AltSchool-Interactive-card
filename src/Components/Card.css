@@ -22,42 +22,42 @@
     font-size: 1.5rem;
     letter-spacing: 4px;
     position: absolute;
-    top: 7rem;
-    left: -198px;
+    top: 19rem;
+    left: 191px;
 }
 
 .card-name{
     font-size: 0.9rem;
     position: absolute;
-    top: 10rem;
-    left: -220px;
+    top: 24rem;
+    left: 190px;
 }
 
 .card-expiry{
     font-size: 0.9rem;
     position: absolute;
-    top: 10rem;
-    left: 80px;
+    top: 24rem;
+    left: 28rem;
 }
 
 .white{
-    background-color: #ffffff;
+    background-color: #fff;
     width: 30px;
     height: 30px;
     border-radius: 60px;
     position: absolute;
-    top: 20px;
-    left: -210px;
+    top: 15rem;
+    left: 180px;
 }
 
 .white2{
-     background-color: #ffffff;
+     background-color: #fff;
     width: 20px;
     height: 20px;
     border-radius: 60px;
     position: absolute;
-    top: 25px;
-    left: -170px;
+    top: 15.4rem;
+    left: 230px;
 }
 
 .purple{
@@ -66,8 +66,8 @@
     height: 16px;
     border-radius: 60px;
     position: absolute;
-    top: 27px;
-    left: -168px;
+    top: 15.5rem;
+    left: 232px;
 }
 
 
@@ -85,16 +85,16 @@
 .black{
     background-color: #000;
     position: absolute;
-    top: 16rem;
-    width: 110%;
+    top: 30rem;
+    width: 35.8%;
     height: 2.5rem;
 }
 
 .grey{
     background-color: rgb(148, 137, 137);
      position: absolute;
-    top: 20rem;
-    width: 90%;
+    top: 35rem;
+    width: 30%;
     height: 2rem;
     margin-left: 35px;
     border-radius: 3px;
@@ -102,16 +102,16 @@
 
 .card-cvc{
     position: absolute;
-    right: 205px;
-    top: 21rem;
+    left: 495px;
+    top:36rem;
     color: #fff;
     transform: translateY(-50%);
 }
 
 .tiny{
     position: absolute;
-    top: 24rem;
-    left: -5rem;
+    top: 38rem;
+    left: 19rem;
     font-size: 0.6rem;
 }
 
@@ -178,7 +178,7 @@
     }
 
 .card-cvc{
-    right: 125px;
+    left: 195px;
     top: 18rem;
    }
 
@@ -186,5 +186,88 @@
     top: 20rem;
     left: 3rem;
     font-size: 0.5rem;
+}
+}
+
+
+@media (max-width: 500px) {
+    
+.card-front{
+    height: 8rem;
+   width: 15rem;
+  margin-top: 6rem;
+  margin-left: 1rem;
+}
+
+
+.card-number{
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    top: 4rem;
+    left: 30px;
+    word-spacing: px;
+    white-space: nowrap;
+}
+
+.card-name{
+    top: 6.5rem;
+    left: 25px;
+}
+
+.card-expiry{
+    top: 6.5rem;
+    left: 13rem;
+}
+
+.white{
+    height: 25px;
+    width: 25px;
+    top: 15px;
+    left: 31px;
+}
+
+.white2{
+    top: 17px;
+    left: 70px;
+}
+
+.purple{
+     top: 18.7px;
+    left: 72px;
+}
+
+
+.card-back{
+    height: 8rem;
+   width: 15rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+
+.black{
+    top: 10rem;
+    width: 15rem;
+    height: 1.8rem;
+}
+
+.grey{
+    top: 13rem;
+    width: 12rem;
+    left: 20px;
+    height: 25px;
+    }
+
+.card-cvc{
+    left: 195px;
+    top: 13.8rem;
+    font-size: 0.8rem;
+   }
+
+.tiny{
+    top: 15rem;
+    left: 5.6rem;
+    font-size: 0.4rem;
+    white-space: nowrap;
 }
 }
