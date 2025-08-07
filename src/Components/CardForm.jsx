@@ -9,14 +9,17 @@ export default function CardForm({data, onChange, onSubmit}) {
         const plainNumber = data.number.replace(/\s/g, "");
 
         if(!data.name.trim()) newErrors.name = "Can't be blank";
-        if (!/^\{16}$/.test(plainNumber)) newErrors.number = "Wrong Format, Must be 16 digits";
-       
-        const month = parseInt(data.month, 10);
-        if(!month || month <1 || month > 12)
-            newErrors.month = "Invalid Month";
 
-      if (!/^\{2}$/.test(data.year)) newErrors.year = "Invalid Year";
-     if (!/^\{3}$/.test(data.cvc)) newErrors.cvc = "Invalid CVC";
+        if (!/^\d{16}$/.test(plainNumber)) newErrors.number = "Wrong Format, Must be 16 digits";
+       
+        const monthNum = parseInt(data.month, 10);
+        if(!/^\d{2}$/.test(data.month) || monthNum <1 || monthNum > 12){
+            newErrors.month = "Invalid Month";
+        }
+
+      if (!/^\d{2}$/.test(data.year)) newErrors.year = "Invalid Year";
+
+     if (!/^\d{3}$/.test(data.cvc)) newErrors.cvc = "Invalid CVC";
      setErrors(newErrors);
      return Object.keys(newErrors).length === 0;
 
@@ -46,7 +49,7 @@ export default function CardForm({data, onChange, onSubmit}) {
                 <input
                 type="text"
                 value={data.number}
-                onChange={(e) => onChange("number", e.target.value.replace(/[^\d\s]/g, ""))
+                onChange={(e) => onChange("number", e.target.value.replace(/\D/g, ""))
                 }
                 placeholder="e.g  1234 5678 9123 0023"
                 maxLength={16}/>

@@ -1,0 +1,31 @@
+.success-msg{
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 4px;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0.5);
+    margin: 4rem auto;
+    margin-top: 140px;
+     color: rgb(120, 55, 180); 
+}
+
+.success-msg h2{
+      margin-bottom: 1rem;
+}
+
+.success-msg p{
+   margin-bottom: 1rem;
+   font-size: 1rem;
+}
+
+.success-msg button{
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.success-msg button:hover{
+    background-color: #fff;
+    color: rgb(65, 37, 92);
+}

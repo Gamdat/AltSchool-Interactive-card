@@ -3,7 +3,7 @@ form{
     flex-direction: column;
     gap: 1.2rem;
     margin-top: -240px;
-    margin-left: 180px;
+    margin-left: 162px;
 }
 
 label{
@@ -85,12 +85,12 @@ button{
     margin-left: -20px;}
 }
 
-@media (max-width: 768px){
+@media (max-width: 450px){
     
 button{
     padding: 0.8rem;
     font-size: 0.9rem;
-    margin-left: -10px;
+    margin-left: -15px;
     width: 12rem;
 }
 
@@ -98,7 +98,7 @@ button{
 input{
     padding: 0.8rem;
     font-size: 1rem;
-    margin-left: -20px;
+    margin-left: -22px;
     width: 220px;
 }
 

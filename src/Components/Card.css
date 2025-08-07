@@ -23,7 +23,7 @@
     letter-spacing: 4px;
     position: absolute;
     top: 19rem;
-    left: 191px;
+    left: 251px;
 }
 
 .card-name{
@@ -190,7 +190,7 @@
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
     
 .card-front{
     height: 8rem;
